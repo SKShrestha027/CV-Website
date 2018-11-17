@@ -1,4 +1,23 @@
+
 h1{
 font-family:serif;
-color:green;
+color:black;
+}
+
+body{
+  background-color: slateblue ;
+text-align: left;
+}
+
+container{
+  width:200px;
+}
+
+textarea{
+  colour:white;
+}
+
+#pageContent{
+
+  padding: 50px;
 }
