@@ -1,7 +1,8 @@
 
+
 h1{
 font-family:serif;
-color:black;
+color:red;
 }
 
 body{
@@ -9,9 +10,7 @@ body{
 text-align: left;
 }
 
-container{
-  width:200px;
-}
+
 
 textarea{
   colour:white;
@@ -19,5 +18,17 @@ textarea{
 
 #pageContent{
 
-  padding: 50px;
+  padding: 10px;
+  height: 100px;
+}
+
+#initialText{
+  width: 100%;
+  padding-top:40px;
+  padding-bottom:40px;
+  margin-bottom: :30px;
+  border-color: black;
+  border-width: 5px;
+  border-bottom-style: solid;
+  background-image: url("river.jpg");
 }
