@@ -1,38 +1,43 @@
-
-
 h1{
-font-family:serif;
-color:#B200FF;
+font-family:Arial;
+color: #black;
 }
 
 body{
-background-color: slateblue ;
 text-align: left;
+background-color: #5DEEAB;
 }
 
-#image{
+p{
+  color: black ;
+  font-size: 20px;
+}
+
+#something{
   height:675px;
   width: 100%;
-  background-image: url("river.jpg");
 }
 
-
-textarea{
-  colour:white;
+#pageImage{
+  background-image: url("river.jpg") ;
+  background-repeat: no-repeat;
 }
 
-#pageContent{
-
-  padding: 10px;
-  height: 100px;
+#secondaryText{
+margin:50px;
+width:50%
 }
 
 #initialText{
+  margin-left:50px;
+  margin-top:50px;
+  border-radius: 5px;
   width: 100%;
-  padding-top:40px;
-  padding-bottom:50px;
-  margin:auto;
-  border-color: black;
-  border-width: 5px;
-  border-bottom-style: solid;
+  padding:25px;
+  text-align:left;
+  background-color: #E7E7E7;
+}
+
+#tertiaryText{
+  width:500px;
 }
