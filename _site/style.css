@@ -2,14 +2,19 @@
 
 h1{
 font-family:serif;
-color:red;
+color:#B200FF;
 }
 
 body{
-  background-color: slateblue ;
+background-color: slateblue ;
 text-align: left;
 }
 
+#image{
+  height:675px;
+  width: 100%;
+  background-image: url("river.jpg");
+}
 
 
 textarea{
@@ -25,10 +30,9 @@ textarea{
 #initialText{
   width: 100%;
   padding-top:40px;
-  padding-bottom:40px;
-  margin-bottom: :30px;
+  padding-bottom:50px;
+  margin:auto;
   border-color: black;
   border-width: 5px;
   border-bottom-style: solid;
-  background-image: url("river.jpg");
 }
