@@ -5,6 +5,7 @@ text-align: left;
 background-color: #223843;
 background-image: url("river.jpg") ;
   background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 h2{
@@ -16,28 +17,48 @@ h2{
 p{
   font-family: mmrText;
   color: #413C58 ;
+}
+
+
+#firstText{
+  background-color: #D6EBE5;
+  width:auto;
+  height:auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  padding:40px;
   font-size: 25px;
 }
 
-
-#Name{
-  width:auto;
-  background-color: #D6EBE5;
-  height:auto;
-  margin-left: auto;
-  margin-top: 100px;
-  border-radius: 5px;
-  padding:40px;
-}
-
 #secondaryText{
-background-color: black;
+background-color: #D6EBE5;
 width: auto;
 padding:50px;
 height: auto;
 margin-top:25px;
 margin-right:auto;
 margin-left: auto;
+font-size: 25px;
+}
+
+#picCard{
+  margin-top:150px;
+  margin-bottom:150px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#aboutText{
+background-color: #D6EBE5;
+width: auto;
+padding:25px;
+height: auto;
+margin-top:150px;
+margin-right: auto;
+margin-left: auto;
+font-size:18px;
+border-radius: 10px;
 }
 
 @font-face {
