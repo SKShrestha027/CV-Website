@@ -2,6 +2,10 @@
 title: Home
 layout: default
 ---
+<!--
+The section above uses the default.html layout and uses the code inside to affect each page on the file.
+This is done to implement navigation bar, the stylesheet and bootstrap links on each page.
+!-->
 <!DOCTYPE html>
 
 <html>
@@ -12,7 +16,13 @@ layout: default
   <body>
     <div class="container">
       <div class="row">
+        <!--
+        The row tag causes the two elements to be on different rows, with the first container being above the other one.
+          !-->
         <div class = "column-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
+          <!--
+          This changes the size of the container based on what size of screen it is being viewed on.
+            !-->
           <div class="container-fluid" id="firstText">
             <h2> My name is Samyam Krish Shrestha.</h2>
           </div>
@@ -25,6 +35,10 @@ layout: default
             <p>I am a 17 year old that has just finished highschool. </p>
             <p>I am currently in my first year of studying Applied Computing(BSc) at the University of Dundee.</p>
           </div>
+          <!--
+          I put these 2 sections into different containers as they hold different types of information.
+          Even though these containers appear as a single box on the webpage.
+            !-->
           <div class ="container">
             <p><strong>Email</strong>: SKShrestha@dundee.ac.uk</p>
             <p><strong>Address</strong>: Block D, Flat 21, 21 Brown St, Dundee, DD1 5EF</p>

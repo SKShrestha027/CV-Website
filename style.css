@@ -3,28 +3,56 @@
 body{
 text-align: left;
 background-color: #223843;
+/*
+This creates a background of the selected image.
+The no-repeat makes it so the image does not repeat to fill the empty space.
+This creates a banner background when coupled with the fact the background-color is also changed.
+*/
 background-image: url("river.jpg") ;
-  background-repeat: no-repeat;
-  border-radius: 10px;
+background-repeat: no-repeat;
+border-radius: 10px;
 }
 
 h2{
+  /*
+  The variable mmrText is created using @font-face later down the page.
+  */
   font-family: mmrText;
   color: #413C58 ;
   font-size: 30px;
 }
 
 p{
+  /*
+  This changes all <p> to have these styles.
+  This applies to all pages.
+  */
   font-size: 20px;
   font-family: mmrText;
   color: #413C58 ;
 }
 
+@font-face {
+  /*
+  This changes the font to a font found in the specifed directory.
+  This font is used throughout the website.
+  */
+    font-family: mmrText;
+    src: url(mmrtext.ttf);
+}
 
 #firstText{
+  /*
+  I've made all containers that house text this background colour to make
+  the pages seem more connected.
+  */
   background-color: #D6EBE5;
   width:auto;
   height:auto;
+  /*
+  Width:auto means that the width will change depending on whats needed
+  for the screen size.
+  */
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
@@ -66,23 +94,5 @@ height: auto;
 margin-top:auto;
 margin-right: auto;
 margin-left: auto;
-font-size:18px;
 border-radius: 10px;
 }
-
-@font-face {
-    font-family: mmrText;
-    src: url(mmrtext.ttf);
-}
-
-
-
-/*
-#fourthText{
-  border-radius: 5px;
-  padding:25px;
-  margin:25px;
-  width:auto;
-  height: auto;
-}
-*/
